@@ -1,0 +1,6 @@
+* text=auto
+*.json text eol=lf
+*.md text eol=lf
+*.mdc text eol=lf
+*.ps1 text eol=crlf
+*.patch text eol=lf whitespace=-blank-at-eol,-space-before-tab,-blank-at-eof

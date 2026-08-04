@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "repository": "https://github.com/Overstrider/oh-my-pi.git",
+  "branch": "feat/kimi-harness-merlin-9router",
+  "baseCommit": "ba2eae3a0ed0206331179eb468f6c6ed9a6c7c33",
+  "patch": "patches/oh-my-pi-runtime-fixes.patch",
+  "patchSha256": "0E11C25407B7266757EC04C12F32D84E13B4C9143961D030FFC58076718C93BF",
+  "minimumBunVersion": "1.3.14",
+  "features": [
+    "kimi-k3-merlin-harness",
+    "cursor-grok-stream-recovery",
+    "cursor-completed-tool-idempotency",
+    "cursor-merlin-model-discovery",
+    "ask-recommended-timeout-in-plan-mode",
+    "private-router-runtime-values",
+    "audited-transitive-dependencies"
+  ]
+}

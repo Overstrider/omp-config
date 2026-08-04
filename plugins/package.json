@@ -1,0 +1,14 @@
+{
+  "name": "omp-plugins",
+  "private": true,
+  "dependencies": {
+    "@mariozechner/pi-ai": "npm:@oh-my-pi/pi-ai@17.2.8",
+    "@mariozechner/pi-coding-agent": "npm:@oh-my-pi/pi-coding-agent@17.2.8",
+    "@offbynan/pi-cursor-provider": "^0.6.0"
+  },
+  "overrides": {
+    "adm-zip": "0.6.0",
+    "sharp": "0.35.3",
+    "tar": "7.5.22"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "oh-my-omp",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Port of oh-my-openagent (OMO) discipline-agent system to Oh My Pi (OMP)",
+  "omp": {
+    "extensions": ["./index.ts"]
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@oh-my-pi/pi-coding-agent": "17.2.8",
+    "typescript": "^6.0.3"
+  },
+  "overrides": {
+    "adm-zip": "0.6.0",
+    "protobufjs": "7.6.5",
+    "sharp": "0.35.3",
+    "tar": "7.5.22"
+  }
+}

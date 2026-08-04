@@ -1,0 +1,12 @@
+providers:
+  merlin-9router:
+    baseUrl: '!omp-config-router-value base-url'
+    api: openai-completions
+    # The helper reads process values on POSIX and a DPAPI-protected per-user
+    # store on Windows. Neither the endpoint nor the key is versioned here.
+    apiKey: '!omp-config-router-value api-key'
+    authHeader: true
+    discovery:
+      type: proxy
+      # A transient 200/data:[] must not erase the last working 9router catalog.
+      allowEmpty: false

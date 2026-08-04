@@ -1,0 +1,25 @@
+{
+  "name": "omp-pantheon",
+  "version": "0.3.0",
+  "repository": "https://github.com/Agentic-Engineering-Agency/omp-pantheon.git",
+  "commit": "de9fcd80c7622272113c14b10fef9f56cc74a89b",
+  "installation": "vendored",
+  "roots": [
+    "agents",
+    "commands",
+    "skills",
+    "hooks",
+    "extensions/oh-my-omp"
+  ],
+  "defaults": {
+    "evalflyEnforcement": "advisory",
+    "evalflyHints": "opt-in"
+  },
+  "windows": {
+    "nativeTypeScriptComponents": true,
+    "gitBashRequiredBy": [
+      "skills/github/bin/github.sh",
+      "skills/push/bin/push.sh"
+    ]
+  }
+}

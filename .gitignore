@@ -1,0 +1,82 @@
+# Secrets
+.env
+.env.*
+!.env.example
+agent/.env
+agent/secrets.yml
+agent/secret-placeholder.key
+auth-broker.token
+auth-gateway.token
+*.secret
+*.secret.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Agent private/runtime state
+agent/node_modules/
+agent/extensions/oh-my-omp/node_modules/
+agent/agent.db*
+agent/history.db*
+agent/models.db*
+agent/sessions/
+agent/blobs/
+agent/memories/
+agent/terminal-sessions/
+agent/cache/
+agent/last-changelog-version
+agent/*-debug.log
+agent/kimi-device-id
+
+# Orca CLI runtime integration (generated automatically, never versioned)
+agent/extensions/orca-*.ts
+
+# Installed plugins and marketplace runtime state
+plugins/node_modules/
+plugins/omp-plugins.lock.json
+plugins/installed_plugins.json
+plugins/cache/
+marketplaces.json
+
+# OMP root runtime state
+cache/
+logs/
+reports/
+remote/
+run/
+wt/
+ssh-control/
+remote-host/
+python-env/
+webcache/
+security/
+natives/
+autoresearch/
+gpu_cache.json
+install-id
+stats.db*
+autoqa.db*
+puppeteer/
+
+# Pantheon project-local documentation runtime
+.pi/.docs-cache/
+.pi/.docs-registry-log.jsonl
+
+# Generic databases, caches, and logs
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.vscdb
+*.vscdb-*
+*.log
+*.tmp
+*.bad
+*.bak
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

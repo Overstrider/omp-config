@@ -1,0 +1,21 @@
+{
+  "caveman": {
+    "repository": "https://github.com/JuliusBrussee/caveman",
+    "commit": "0d95a81d35a9f2d123a5e9430d1cfc43d55f1bb0",
+    "path": "skills/caveman/SKILL.md",
+    "license": "MIT"
+  },
+  "graphify": {
+    "repository": "https://github.com/Graphify-Labs/graphify",
+    "commit": "4fe11092ccbe9f543608f140c790f68d5d83cae4",
+    "path": "graphify/skill-pi.md",
+    "version": "0.9.31",
+    "license": "Apache-2.0"
+  },
+  "ponytail": {
+    "repository": "https://github.com/DietrichGebert/ponytail",
+    "commit": "16f29800fd2681bdf24f3eb4ccffe38be3baec6b",
+    "path": "skills/ponytail/SKILL.md",
+    "license": "MIT"
+  }
+}

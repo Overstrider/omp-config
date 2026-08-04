@@ -1,0 +1,43 @@
+setupVersion: 1
+startup: 
+  setupWizard: false
+secrets: 
+  enabled: true
+enabledModels: 
+  - merlin-9router/**
+  - cursor/**
+disabledProviders: 
+  - openrouter
+modelProviderOrder: 
+  - merlin-9router
+modelRoles: 
+  smol: merlin-9router/cx/gpt-5.6-luna:max
+  slow: merlin-9router/cx/gpt-5.6-luna:max
+  vision: merlin-9router/cx/gpt-5.6-luna:max
+  designer: merlin-9router/cx/gpt-5.6-luna:max
+  commit: merlin-9router/cx/gpt-5.6-luna:max
+  tiny: merlin-9router/cx/gpt-5.6-luna:max
+  task: merlin-9router/cx/gpt-5.6-luna:max
+  default: merlin-9router/cx/gpt-5.6-luna:max
+  advisor: merlin-9router/cx/gpt-5.6-luna:max
+  plan: merlin-9router/cx/gpt-5.6-luna:max
+skills: 
+  enabled: true
+  enableSkillCommands: true
+  enableCodexUser: false
+  enableClaudeUser: false
+  enableClaudeProject: false
+defaultThinkingLevel: auto
+ask:
+  enabled: false
+  timeout: 15
+  notify: "off"
+tools:
+  approvalMode: yolo
+dev: 
+  autoqaConsent: granted
+commands: 
+  enableClaudeUser: false
+  enableClaudeProject: false
+  enableOpencodeUser: false
+  enableOpencodeProject: false
